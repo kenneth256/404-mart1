@@ -1,5 +1,6 @@
 {
-  
-  "extends": ["next/core-web-vitals", "next/typescript", "eslint:recommended"]
-  
+  "extends": ["next/core-web-vitals", "next/typescript", "eslint:recommended"],
+  "rules": {
+    "@typescript-eslint/no-empty-object-type": "off"
+  }
 }
