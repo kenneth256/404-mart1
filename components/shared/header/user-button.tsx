@@ -39,7 +39,7 @@ export default async function UserButton() {
               <p className="text-xs leading-none text-muted-foreground">
                 {session.user.email}
               </p>
-            </div>
+            </div> 
           </DropdownMenuLabel>
           <DropdownMenuItem className="p-0 mb-1">
             <form action={SignOut} className="w-full">

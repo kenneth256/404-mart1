@@ -1,10 +1,14 @@
-import { cwd } from 'node:process'
+    import { cwd } from 'node:process'
     import { loadEnvConfig } from '@next/env'
     import { drizzle } from 'drizzle-orm/node-postgres'
     import { Client } from 'pg'
     import * as schema from './schema'
     import sampleData from '@/lib/sampledata'
+   
+    
+    
     loadEnvConfig(cwd())
+   
     const main = async () => {
       try {
         const client = new Client({
